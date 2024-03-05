@@ -1,0 +1,6 @@
+Create composer alias in windows:
+	doskey composer=php C:\Tools\composer\composer.phar $*
+Check php exensions:
+	php -m
+Serve PHP local server:
+	php artisan serve
