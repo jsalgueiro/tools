@@ -1,0 +1,2 @@
+Dump database structure and data:
+- pg_dump -U fither360_live_user -d fither360_live -Fc -f latestt_dump_js.sql
