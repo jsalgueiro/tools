@@ -1,0 +1,3 @@
+Find DNS host
+
+  - nslookup -type=NS shero360.com
