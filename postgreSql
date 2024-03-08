@@ -13,5 +13,8 @@ Restore db
 Dump database structure and data:
   pg_dump -U fither360_live_user -d fither360_live -Fc -f latestt_dump_js.sql
 
+Restore database
+  docker exec -i shero360-postgres pg_restore -U postgres -d shero360_dev < your_dump_file.sql
+
 List databases
   \l
