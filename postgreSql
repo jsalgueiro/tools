@@ -1,6 +1,9 @@
 Run and Mapping docker port to localhost:
   docker run --name shero360-postgres -e POSTGRES_PASSWORD=Hello@1985 -d -p 5432:5432 postgres:13.14
 
+Connect to bash
+  docker exec -it shero360-postgres bash
+
 Connect to docker postgresql
   docker exec -it shero360-postgres psql -U postgres
 
