@@ -4,3 +4,6 @@ Check php exensions:
 	php -m
 Serve PHP local server:
 	php artisan serve
+
+Running command e.g.:
+	php artisan subscription:mail 752
