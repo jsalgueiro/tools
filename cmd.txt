@@ -1,0 +1,5 @@
+Extract through commandline
+  tar -xvzf FitHer360.zip
+  to a specific folder:
+    tar -xvzf FitHer360.zip -C FOLDER_NAME
+  
