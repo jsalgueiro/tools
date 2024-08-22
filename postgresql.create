@@ -20,7 +20,7 @@
 #grant all privileges
   GRANT ALL PRIVILEGES ON DATABASE your_db_name TO your_db_user;
 
-# change owner
+# change owner (needs to be connected with the root user - postgres)
 ALTER SCHEMA public OWNER TO dohiit_prd;
 
 
