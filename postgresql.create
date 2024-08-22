@@ -20,6 +20,9 @@
 #grant all privileges
   GRANT ALL PRIVILEGES ON DATABASE your_db_name TO your_db_user;
 
+# change owner
+ALTER SCHEMA public OWNER TO dohiit_prd;
+
 
 # allow connections
   sudo nano /etc/postgresql/12/main/pg_hba.conf
